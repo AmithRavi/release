@@ -10,7 +10,7 @@
         "type": "category",
         "label": "Get Started",
         "collapsed": true,
-        "items": ["xl-release-architecture","new-assignment-doc"]
+        "items": ["xl-release-architecture","release-doc"]
       },
       {
         "type": "category",

@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 const textContent = {
   intro: `
-  Digital.ai TeamForge 23.1.0 includes the following new features:
+  Digital.ai release 23.1.0 includes the following new features:
 
   <ul>
     <li>Next generation extensibility python sdk tech preview</li>
@@ -149,7 +149,7 @@ function HomeCallToActionRelease() {
   return (
     <>
       <h2>
-        TeamForge 23.1{' '}
+        Release 23.1{' '}
         <MDBBadge className="mx-2" color="info" light>
           New
         </MDBBadge>
@@ -165,23 +165,23 @@ function HomeCallToActionRelease() {
       <br />
       <ActionButton
         type="tertiary"
-        href={useBaseUrl('/teamforge-new')}
+        href={useBaseUrl('/release-new')}
         target="_self">
-        What's New in TeamForge 23.1?
+        What's New in release 23.1?
       </ActionButton>
       <br />
       <ActionButton
         type="tertiary"
-        href={useBaseUrl('/teamforge-fixedissues')}
+        href={useBaseUrl('/release-fixedissues')}
         target="_self">
-        What's Fixed in TeamForge 23.0?
+        What's Fixed in release 23.0?
       </ActionButton>
       <br />
       <ActionButton
         type="tertiary"
-        href={useBaseUrl('/teamforge-known')}
+        href={useBaseUrl('/release-known')}
         target="_self">
-        Known Issues in TeamForge 23.0
+        Known Issues in release 23.0
       </ActionButton>
       <br />
       <ActionButton
@@ -195,7 +195,7 @@ function HomeCallToActionRelease() {
         type="tertiary"
         href={useBaseUrl('/apichangelog')}
         target="_self">
-        REST API Change Log—TeamForge 23.0
+        REST API Change Log—release 23.0
       </ActionButton>
       <br />
       <ActionButton
@@ -258,11 +258,11 @@ function ReleaseCard1() {
             <MDBCard>
               {/* <MDBCardImage position='top' alt='...' src='img/homepage/deploy-logo.png' /> */}
               <MDBCardBody>
-                <MDBCardTitle>TeamForge 22.3</MDBCardTitle>
+                <MDBCardTitle>release 22.3</MDBCardTitle>
                 <MDBCardText>
                   <p>GA Oct 10, 2022</p>
                   <p>
-                    With Digital.ai TeamForge, software teams have the
+                    With Digital.ai release, software teams have the
                     flexibility to choose the best possible workflows without
                     risking overall process compliance.
                   </p>
@@ -340,11 +340,11 @@ function ReleaseCard1() {
             <MDBCard>
               {/* <MDBCardImage position='top' alt='...' src='img/homepage/deploy-logo.png' /> */}
               <MDBCardBody>
-                <MDBCardTitle>TeamForge 22.2</MDBCardTitle>
+                <MDBCardTitle>release 22.2</MDBCardTitle>
                 <MDBCardText>
                   <p>GA Jul 01, 2022</p>
                   <p>
-                    With Digital.ai TeamForge, software teams have the
+                    With Digital.ai release, software teams have the
                     flexibility to choose the best possible workflows without
                     risking overall process compliance.
                   </p>
@@ -433,11 +433,11 @@ function ReleaseCard2() {
             <MDBCard>
               {/* <MDBCardImage position='top' alt='...' src='img/homepage/release-logo.png' /> */}
               <MDBCardBody>
-                <MDBCardTitle>TeamForge 22.1</MDBCardTitle>
+                <MDBCardTitle>release 22.1</MDBCardTitle>
                 <MDBCardText>
                   <p>GA Apr 05, 2022</p>
                   <p>
-                    With Digital.ai TeamForge, software teams have the
+                    With Digital.ai release, software teams have the
                     flexibility to choose the best possible workflows without
                     risking overall process compliance.
                   </p>
@@ -515,10 +515,10 @@ function ReleaseCard2() {
             <MDBCard>
               {/* <MDBCardImage position='top' alt='...' src='img/homepage/deploy-logo.png' /> */}
               <MDBCardBody>
-                <MDBCardTitle>TeamForge 22.0</MDBCardTitle>
+                <MDBCardTitle>release 22.0</MDBCardTitle>
                 <MDBCardText>
                   <p>GA Jan 25, 2022</p>
-                  With Digital.ai TeamForge, software teams have the flexibility
+                  With Digital.ai release, software teams have the flexibility
                   to choose the best possible workflows without risking overall
                   process compliance.
                 </MDBCardText>
@@ -757,7 +757,7 @@ function NativeAppsRelease() {
         reverse
         columnOne={
           <>
-            {/* <h2 className="title">Digital.ai TeamForge 23.1</h2> */}
+            {/* <h2 className="title">Digital.ai Release 23.1</h2> */}
             <div className="buttons">
               <HomeCallToActionRelease />
             </div>
@@ -770,7 +770,7 @@ function NativeAppsRelease() {
         }
         columnTwo={
           <>
-            <img alt="" src={useBaseUrl('img/homepage/teamforge-logo.jpg')} />
+            <img alt="" src={useBaseUrl('img/homepage/release-logo.jpg')} />
             <p className="tagline">
               Ensure governance, compliance, and code security standards are
               maintained in development.
@@ -780,7 +780,7 @@ function NativeAppsRelease() {
                 width="400"
                 height="215"
                 src="https://www.youtube.com/embed/N2kHTAck1LE"
-                title="digital.ai TeamForge Overview"
+                title="digital.ai release Overview"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -826,7 +826,7 @@ function NativeAppsRN() {
         reverse
         columnOne={
           <TextColumn
-            title="What's New in Digital.ai TeamForge 23.1?"
+            title="What's New in Digital.ai release 23.1?"
             text={textContent.intro}
           />
         }
@@ -942,7 +942,7 @@ function VideoContent() {
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/N2kHTAck1LE"
-                title="digital.ai TeamForge Overview"
+                title="digital.ai release Overview"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -1089,7 +1089,7 @@ function GetStarted() {
   return (
     <Section className="GetStarted" background="tint">
       <div className="content">
-        <Heading text="What's New in Digital.ai TeamForge 23.1?" />
+        <Heading text="What's New in Digital.ai release 23.1?" />
         {/* <ol className="steps">
           <li>
             <p>Run this</p>
@@ -1102,7 +1102,7 @@ function GetStarted() {
             <HomeCallToAction />
           </li>
         </ol> */}
-        Digital.ai TeamForge 23.1.0 includes the following new features:
+        Digital.ai release 23.1.0 includes the following new features:
         <ul>
           <li>Next generation extensibility python sdk tech preview</li>
           <li>Remote runner for running container-based tasks</li>
